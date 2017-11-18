@@ -19,5 +19,6 @@ public class GovermentMainMethod implements School, College{
 		GovermentMainMethod g = new GovermentMainMethod();
 		g.departments();
 		System.out.println("School students Strength is " + g.strength());
+		g.msg();
 	}
 }
