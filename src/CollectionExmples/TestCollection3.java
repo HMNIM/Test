@@ -19,8 +19,9 @@ public class TestCollection3 {
 		while(itr.hasNext())
 		{
 			StudentCollection s = (StudentCollection)itr.next();
-		System.out.println(s.name + " " + s.age + " " + s.rollnum);	
+		System.out.println(s.name + " " + s.age + " 5" + s.rollnum);	
 		}
+		
 	}
 
 }
