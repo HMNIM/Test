@@ -1,6 +1,7 @@
 package CollectionExmples;
 
 import java.util.ArrayList;
+import java.util.Iterator;
 
 public class TestArrayList {
 	
@@ -20,6 +21,13 @@ public class TestArrayList {
 System.out.println(c.carName  + " made "+ c.quantity + " cars in " + c.yearofMaking);
 			
 		}
+		Iterator itr = list.iterator();
+		while(itr.hasNext())
+		{
+			Car c = (Car)itr.next();
+			System.out.println(c.carName  + " made "+ c.quantity + " cars in " + c.yearofMaking);
+		}
+		
 	}
 
 }
