@@ -1,5 +1,6 @@
 package CollectionExmples;
 import java.util.ArrayList;
+import java.util.Iterator;
 import java.util.List;
 //test
 public class TestCollectionBook5 {
@@ -19,6 +20,13 @@ public class TestCollectionBook5 {
 		{
 System.out.println(b.publisher +  " " +"published " + b.quantity + " books  of " + b.name);
 		}
+		Iterator itr = list.iterator();
+		while(itr.hasNext())
+		{
+			Book b = (Book)itr.next();
+System.out.println(b.publisher +  " " +"published " + b.quantity + " books  of " + b.name);
+		}
+		
 	}
 
 }
