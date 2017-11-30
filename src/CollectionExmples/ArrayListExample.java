@@ -8,6 +8,7 @@ import java.util.Collections;
 public class ArrayListExample {
 	public static void main(String args[])
 	{
+		
 		ArrayList<String> obj1 = new ArrayList<String>(
 				Arrays.asList("one","two","three","four"));
 		System.out.println("Numbers are" +obj1);
