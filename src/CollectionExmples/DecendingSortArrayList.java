@@ -19,6 +19,7 @@ public class DecendingSortArrayList {
 		{
 			System.out.println(list.get(i));
 		}
+		//
 		System.out.println("Sorting in Ascending order");
 		Collections.sort(list);
 		for(int i :list)
