@@ -16,7 +16,7 @@ public class CompareTwoArrayLists {
 		list1.add("bye");
 		list1.add("good night all");
 		ArrayList<String> list2 = new ArrayList<String>();
-		for(String temp: list)
+		for(String temp : list)
 		{
 			list2.add(list1.contains(temp) ? "Yes" : "No");
 			System.out.println(list2);
@@ -24,9 +24,10 @@ public class CompareTwoArrayLists {
 		ArrayList<Integer> list3 = new ArrayList<Integer>();
 		for(String temp1 : list)
 		{
-			list3.add(list1.contains(temp1) ?  1 : 0);
+			list3.add(list1.contains(temp1) ? 1 : 0);
 			System.out.println(list3);
 		}
+
 	}
 
 }
