@@ -31,7 +31,7 @@ public class CountRunnable implements Runnable {
 		while(c.mythread.isAlive())
 		{
 			//System.out.println(" Main thread printing");
-			Thread.sleep(1500);
+			Thread.sleep(1500);System.out.println("true");
 		}
 	}
 
