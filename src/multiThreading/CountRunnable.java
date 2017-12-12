@@ -1,7 +1,7 @@
 package multiThreading;
 
 public class CountRunnable implements Runnable {
-	
+	//
 	Thread mythread;
 	CountRunnable()
 	{
