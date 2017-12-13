@@ -21,7 +21,7 @@ public class TestSleepThread  extends Thread {
 		TestSleepThread t = new TestSleepThread();
 		TestSleepThread t1 = new TestSleepThread();
 		t.run();
-		t1.start();
+		t1.run();
 	
 	}
 
