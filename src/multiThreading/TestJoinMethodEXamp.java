@@ -1,5 +1,5 @@
 package multiThreading;
-
+//
 public class TestJoinMethodEXamp extends Thread{
 	
 	public void run()
