@@ -1,14 +1,14 @@
 package multiThreading;
 
-public class TestSleepThread extends Thread {
+public class TestSleepThread  extends Thread {
 	
 	public void run()
 	{
-		for(int i =0; i< 5; i++)
+		for(int i =1; i< 5; i++)
 		{
-			System.out.println(" Sleeping thread" +i);
+			System.out.println(" " +i);
 			try {
-				Thread.sleep(100);
+				Thread.sleep(1000);
 			} catch (InterruptedException e) {
 				// TODO Auto-generated catch block
 				e.printStackTrace();
@@ -19,7 +19,9 @@ public class TestSleepThread extends Thread {
 	public static void main(String[] args) {
 		
 		TestSleepThread t = new TestSleepThread();
-		t.start();
+		TestSleepThread t1 = new TestSleepThread();
+		t.run();
+		t1.run();
 	
 	}
 
